@@ -1,0 +1,61 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.err
+*.swp
+*.swo
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore PyCharm settings (if using PyCharm)
+.idea/
+
+# Ignore environment configuration files
+.env
+*.env
+
+# Ignore compiled Python files
+*.egg-info/
+dist/
+build/
+
+# Ignore model weights and large datasets (if any)
+*.h5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.tflite
+*.pkl
+
+# Ignore large outputs or results (if applicable)
+results/
+output/
+logs/
+tensorboard_logs/
+
+# Ignore Jupyter Notebook metadata (optional)
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+Thumbs.db
